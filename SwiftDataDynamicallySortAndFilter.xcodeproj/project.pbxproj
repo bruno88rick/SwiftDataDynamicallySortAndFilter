@@ -18,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B609A19A2C25B339004AB8D2 /* SwiftDataDynamicallySortAndFilter.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SwiftDataDynamicallySortAndFilter.entitlements; sourceTree = "<group>"; };
+		B609A19B2C25B488004AB8D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		B66874BB2C241C3C004311FE /* SwiftDataDynamicallySortAndFilter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftDataDynamicallySortAndFilter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B66874BE2C241C3C004311FE /* SwiftDataDynamicallySortAndFilterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftDataDynamicallySortAndFilterApp.swift; sourceTree = "<group>"; };
 		B66874C02C241C3C004311FE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -59,6 +61,8 @@
 		B66874BD2C241C3C004311FE /* SwiftDataDynamicallySortAndFilter */ = {
 			isa = PBXGroup;
 			children = (
+				B609A19B2C25B488004AB8D2 /* Info.plist */,
+				B609A19A2C25B339004AB8D2 /* SwiftDataDynamicallySortAndFilter.entitlements */,
 				B66874BE2C241C3C004311FE /* SwiftDataDynamicallySortAndFilterApp.swift */,
 				B66874C02C241C3C004311FE /* ContentView.swift */,
 				B66874D22C2494AA004311FE /* Job.swift */,
@@ -285,12 +289,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SwiftDataDynamicallySortAndFilter/SwiftDataDynamicallySortAndFilter.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftDataDynamicallySortAndFilter/Preview Content\"";
 				DEVELOPMENT_TEAM = H8ZGPE64NJ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SwiftDataDynamicallySortAndFilter/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -314,12 +320,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SwiftDataDynamicallySortAndFilter/SwiftDataDynamicallySortAndFilter.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftDataDynamicallySortAndFilter/Preview Content\"";
 				DEVELOPMENT_TEAM = H8ZGPE64NJ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SwiftDataDynamicallySortAndFilter/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

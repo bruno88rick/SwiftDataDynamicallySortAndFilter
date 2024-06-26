@@ -22,7 +22,7 @@ class Job {
     //Notice how I've made the owner property refer directly to the User model – I've told SwiftData explicitly that the two models are linked together.
     var owner: User?
     
-    init(name: String, priority: Int, owner: User? = nil) {
+    init(name: String, priority: Int) {
         self.name = name
         self.priority = priority
         self.owner = owner
